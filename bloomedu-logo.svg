@@ -1,0 +1,45 @@
+<svg width="520" height="160" viewBox="0 0 520 160" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="bloomedu logo">
+  <defs>
+    <linearGradient id="petal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FF8A65"/>
+      <stop offset="1" stop-color="#F4538A"/>
+    </linearGradient>
+    <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#43D6A0"/>
+      <stop offset="1" stop-color="#2BA98A"/>
+    </linearGradient>
+    <linearGradient id="word" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2BA98A"/>
+      <stop offset="1" stop-color="#1F7A6B"/>
+    </linearGradient>
+  </defs>
+
+  <!-- icon: blooming sprout -->
+  <g transform="translate(8,6)">
+    <!-- stem -->
+    <path d="M70 132 C70 104 70 92 70 74" stroke="url(#leaf)" stroke-width="9" stroke-linecap="round"/>
+    <!-- leaves -->
+    <path d="M70 104 C52 100 40 108 34 122 C52 124 66 120 70 104 Z" fill="url(#leaf)"/>
+    <path d="M70 92 C88 88 100 96 106 110 C88 112 74 108 70 92 Z" fill="url(#leaf)" opacity="0.92"/>
+
+    <!-- bloom petals -->
+    <g>
+      <ellipse cx="70" cy="36" rx="15" ry="24" fill="url(#petal)"/>
+      <ellipse cx="70" cy="36" rx="15" ry="24" fill="url(#petal)" transform="rotate(72 70 60)"/>
+      <ellipse cx="70" cy="36" rx="15" ry="24" fill="url(#petal)" transform="rotate(144 70 60)"/>
+      <ellipse cx="70" cy="36" rx="15" ry="24" fill="url(#petal)" transform="rotate(216 70 60)"/>
+      <ellipse cx="70" cy="36" rx="15" ry="24" fill="url(#petal)" transform="rotate(288 70 60)"/>
+    </g>
+    <!-- bloom center -->
+    <circle cx="70" cy="60" r="14" fill="#FFD15C"/>
+    <circle cx="70" cy="60" r="6" fill="#FFB300"/>
+  </g>
+
+  <!-- wordmark -->
+  <g transform="translate(150,0)">
+    <text x="0" y="98" font-family="'Poppins','Quicksand','Nunito','Segoe UI',sans-serif" font-size="60" font-weight="700" letter-spacing="-1">
+      <tspan fill="url(#word)">bloom</tspan><tspan fill="#F4538A">edu</tspan>
+    </text>
+    <text x="2" y="126" font-family="'Poppins','Quicksand','Nunito','Segoe UI',sans-serif" font-size="17" font-weight="500" letter-spacing="3.5" fill="#7A8C88">GROW &#183; LEARN &#183; BLOOM</text>
+  </g>
+</svg>
